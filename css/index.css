@@ -1,0 +1,465 @@
+
+
+    *{transition: ease-in-out ,0.3s;}
+    html{
+        scroll-behavior:smooth;
+        transition:all 0.3s ease-in-out;
+    }
+    
+    body{
+       background-color:#DDDDDD;
+       padding-left:10%;
+       padding-right:10%;
+       margin-top:0px;
+       color:black;
+       background-size: cover;
+       background-repeat:repeat-y;
+       background-position:left;
+       
+
+        
+    }
+    
+    
+    /*FONTS<<<__________________________*/
+    
+    
+        /*_________________cocomat_________________*/
+    
+        @font-face{
+            font-family:'cocomat';
+            src:url('fonts/cocomat.ttf') format('ttf');
+        }
+        
+        /*_________________Berlin Sans FB_________________*/
+        @font-face{
+                    font-family:'Berlin Sans FB';
+                    src:url('fonts/Berlin Sans FB.ttf') format('ttf'),
+        }
+        
+        /*_________________arial_________________*/
+        @font-face{
+                    font-family:'arial';
+                    src:url('fonts/arial.ttf') format('ttf');
+                                       
+                    
+                    
+                    font-weight:normal;
+                    font-style:normal;
+        }
+        
+        @font-face{
+                    font-family:'arial';
+                    
+                    src:url('fonts/arialbd.ttf') format('ttf');                  
+                       
+                    
+                    
+                    font-weight:bold;
+                    font-style:normal;
+        }
+        
+    
+        
+        /*_________________CorleoneDue_________________*/
+        @font-face{
+                    font-family:'CorleoneDue';
+                    src:url('fonts/CorleoneDue.ttf') format('ttf');
+                  
+                    
+                    font-weight:normal;
+                    font-style:normal;
+                    
+        }
+        
+         /*_________________corbel_________________*/
+                @font-face{
+                    font-family:'corbel';
+                    src:url('fonts/corbel.ttf') format('ttf');
+                        
+                  
+                    
+                    font-weight:normal;
+                    font-style:normal;
+                    
+        }
+        
+    
+     /*FONTS_/>>>_________________________*/
+     
+     
+     
+    
+    p{ font-family:'corbel',sans-serif;
+    
+    
+    }
+    h1{
+        font-family:'Berlin Sans FB';
+        color:#062A56;
+        
+    }
+    h2{
+        margin-left:8%;
+        font-family:'cocomat',sans-serif;
+               
+        
+    }
+    
+    a{
+        text-decoration:none;
+    }
+    a:hover{ cursor: pointer;}
+    
+    .cont{
+        display:flex;
+    }
+    .box{ 
+    width:auto;
+    
+    margin-right:40px;}
+    
+    
+    .box:last-child{ margin-right:0px;
+                     
+    
+    }
+    
+    /* __________HEADER STUFF__________*/
+    .head{
+        
+        background-color:#F2F2F2;        
+        margin-bottom:2px;
+        padding-left:25px;
+        padding-top:10px;
+        height:auto;
+        position:relative;
+        width:auto;
+        padding-bottom:10px;
+        background-size:cover;
+        
+        
+    }
+    
+   /*_______SECTION NAVIGATION_______*/
+    nav{ background-color:#EFF2E6;
+          overflow:hidden;
+          border:none;
+          height:auto;
+          padding:0px;
+          display:flex;
+          font-family:'cocomat',sans-serif;          
+          align-items:center;
+          
+          
+    }
+    
+    nav a {
+        padding:5px;
+        float:left;
+        display:block;
+        color:#075120;
+        text-decoration:none;
+        margin-right:10px;
+        height:20px;
+        border-right:2px solid #E2E2E2;
+        transition:all 0.2s ease-in-out;
+
+    }
+    
+    nav a:hover {                 
+                    
+                    cursor:pointer;
+                    font-weight:bold;
+    }    
+    
+    
+    
+    /* _________Table adjustments___________*/
+    td{
+        font-family:'corbel',sans-serif;
+    }
+    thead{ font-family:'arial',sans-serif;
+           text-align: center;}
+    tbody{ text-align: center;
+            
+    }
+    
+    
+    /*_________CAREER DIV___________*/
+    .career{
+        background-color:#EDEDE1;
+        padding-left:5px;
+        padding-top:5px;
+        padding-bottom:5px;
+        color:#140A30;
+        font-weight:bold;
+        margin-top:2px;
+        padding-right:3%;        
+        background-size:cover;
+        background-position:right;
+    }
+    
+    .in{
+        margin-left:3%;
+        padding-top:15px;
+        padding-bottom:5px;
+        padding-left:15px;
+        border-radius:8px;     
+        width:auto;
+        
+        
+    }
+
+/*___________PASSPORT PHOTO____________*/
+    .pic{
+        /*CONTAINER*/
+        border-radius:50%;
+        float:left;
+        margin-right:30px;
+        box-sizing: border-box;
+        
+    }
+    
+    .hd{/*PICTURE*/
+        height:150px;
+        border-radius:0%;}
+    
+    li{
+        font-family:'cocomat',sans-serif;
+        font-weight: normal;
+    }
+    
+    
+        
+    /*________REQUEST BUTTON_________*/    
+       .rq{ display:inline-block;
+            width:100px;
+            border:1px solid #ABADAC;
+            background: transparent;
+            height:40px;
+            border-radius:15px;
+            margin-left:8%;
+            color: #1F351F;
+            transition:all 0.2s ease-in-out;
+          }
+          .rq:hover{
+            cursor:pointer;
+            width:130px;
+            margin-left:7%;         
+            font-weight:bold;
+            box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+            
+             }
+          
+    /*_________SOCIALS BUTTONS__________*/      
+          .s{
+            border-radius:50%;
+            border:none;
+            height:50px;
+            width:50px;
+            margin-bottom:5px;
+            transition:all 0.2s ease-in-out;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+          }
+           .s:hover{
+            border-radius:50%;
+            border:none;           
+            cursor:pointer;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            
+          }
+          .p{
+            padding-left: 40px;
+          }
+          
+          
+    .ico{ height:35px;
+          margin-top:4px;
+        
+        }      
+        
+          
+          
+          
+          /*______________RESPONSIVENESS______________*/
+          
+/*___1360________________________________________________________________________________________*/
+  
+          @media screen and (max-width: 1360px) {   
+
+    
+     body{       
+       padding-left:0%;
+       padding-right:0%;
+       width:100%;
+       margin:0;
+    }
+    
+    .p{
+            padding-left: 0px;
+            width:100%;
+          }
+     .head{
+        
+        padding-left:0px;
+        padding-top:10px;
+        height:auto;
+        
+        width:100%;
+        padding-bottom:5px;
+        
+        
+        
+     }
+          
+     .career{
+
+        padding-right:0%;       
+        
+        background-position:center;
+        width:100%;
+    }
+
+    .p{
+            padding-left: 0px;
+          }
+    .hd{
+        width:100px;
+        height:auto;
+        margin-left:15px;
+    }
+    h1{
+        font-size:23px;
+    }
+    h2{font-size:18px;}
+          }
+          
+          
+          
+  /*__535_______________________________________________________________________________________________*/
+  
+       @media screen and (max-width: 535px) {
+        .career{ background-position:center;}
+        #mail{ display:none;
+        }
+    }
+        
+  /*____835_____________________________________________________________________________________________*/
+   
+     @media screen and (max-width: 835px) {
+        nav a:last-child{
+            display:none;
+        }
+        body{
+        max-width:835px;                         
+       padding-left:0%;
+       padding-right:0%;
+      
+       margin:0;
+    
+        }
+        .hd{
+        max-width:100px;
+        height:auto;
+        margin-left:5px;
+    }
+        
+        .career{
+
+        padding-right:0%;       
+        
+        background-position:right;
+        ma-width:100%;
+    }
+        }
+  
+  /*___755________________________________________________________________________________*/
+  
+         @media screen and (max-width: 755px) {
+        nav a{
+            display:none;
+        }
+        body{
+            width:755px;
+        }
+        
+        
+        }      
+    
+   /*___720______________________________________________________________________________________________*/   
+          
+    @media screen and (max-width: 720px) {
+        
+       body{       
+       padding-left:0%;
+       padding-right:0%;
+       width:100%;
+       margin:0;
+    } 
+        
+        
+       nav{
+    display:none;
+    }    
+        
+        
+        
+        
+    }
+ 
+   
+        
+  /*____375_____________________________________________________________________________________________*/
+  
+         @media screen and (max-width: 375px) {
+        nav a{
+            display:none;
+        }
+        body{
+            width:100%;
+        }
+        .hd{
+        width:100px;
+        height:auto;
+        margin-left:3px;
+        
+        }
+        #mail{ display:none;}
+        
+        .career{
+
+        padding-right:0%;       
+        
+        background-position:center;
+        width:100%;
+    }       
+        
+         }
+         
+         
+  /*____________________________________________
+  
+            This is the work of;
+            KINANGA LEEVAYLE
+            2023 Oct
+            Still a student in
+            Kisii University (main campus KISII-KE) - 4Th yr
+            
+            Contact info
+            leevayle@protonmail.com
+            +254748673538
+            
+            If you happen to lay hands on this
+            style sheet, be free to use it
+            and Manipulate it to your own
+            creativity.
+            Also hit me up if you have better
+            ideas and work-around for stuff.
+            
+            -Can't believe you read all this :)
+            
+            ~Cheers~
+  
+  
+  _____________________________________________________*/
